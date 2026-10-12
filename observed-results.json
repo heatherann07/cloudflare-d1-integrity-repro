@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "sql": "PRAGMA foreign_key_check",
+      "status": "executed",
+      "results": []
+    },
+    {
+      "sql": "PRAGMA integrity_check",
+      "status": "failed",
+      "sqliteAuth": true,
+      "message": "D1_ERROR: not authorized: SQLITE_AUTH",
+      "cause": "not authorized: SQLITE_AUTH"
+    }
+  ],
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "linux",
+    "architecture": "x64",
+    "miniflare": "4.20260515.0"
+  },
+  "reproduced": true
+}

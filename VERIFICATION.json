@@ -1,0 +1,29 @@
+{
+  "standaloneActualD1Reproduced": true,
+  "freshD1Executions": 4,
+  "nodeTests": {
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0
+  },
+  "runtime": {
+    "node": "24.19.0",
+    "architecture": "x64",
+    "os": "linux",
+    "miniflare": "4.20260515.0",
+    "workerd": "1.20260515.1"
+  },
+  "lockGraph": {
+    "snapshots": 58,
+    "dependencyReferences": 69,
+    "staticallyVerified": true
+  },
+  "freshInstallation": {
+    "verified": false,
+    "offlineAttempt": "ERR_PNPM_NO_OFFLINE_META; required registry metadata absent; no policy bypass"
+  },
+  "privacyReview": "passed; no application source, original migrations, private configuration, installed dependencies, databases or credentials included",
+  "DockerARM64": "not executed",
+  "storageFileAttribution": "not reproduced; documented separately",
+  "publication": "not performed; owner approval required"
+}
